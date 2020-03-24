@@ -1,0 +1,195 @@
+onStandStepChanged <*>
+onExtend <*> <*> <*> <*>
+onReceive action <*>
+processHandleBroadcastAction action <*>
+flush sensor data
+getTodayTotalDetailSteps <*>
+setTodayTotalDetailSteps <*>
+calculateCaloriesWithCache totalCalories <*>
+calculateAltitudeWithCache totalAltitude <*>
+REPORT <*> <*> <*> <*>
+isScreenOn true
+screen status unknown think screen on
+flushTempCacheToDB by <*>
+Alarm uploadStaticsToDB totalSteps <*> <*> <*> <*>
+writeDataToDB size <*>
+upLoadOneMinuteDataToEngine time <*> 0 <*> <*> <*>
+getBinderPackageName packageName com.huawei.health
+getAppContext() isAppValid health or wear packageName com.huawei.health
+insertHiHealthData() checkAppType 0 appID 1
+insertHiHealthData() size <*> app 1 One Data Type <*> packageName com.huawei.health writeStatType 0
+saveHealthDetailData() deviceID 2 clientID 1 id 1
+saveStatData() type <*> time <*> statClient 2 who is 1
+new date <*> type <*> <*> old <*>
+saveHealthDetailData() saveOneDetailData fail hiHealthData <*> type <*>
+bulkSaveDetailHiHealthData() size <*> totalTime <*>
+startListenerChange subscribeList [1]
+insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode 4 errorMessage ERR_DATA_INSERT
+insertHiHealthData() end totalTime <*>
+<*> <*> type <*> <*> true
+uploadStaticsToDB failed message true
+checkInsertStatus <*> or <*> is enough
+stepSyncOrNot appSynTimes is 0 statsyncTimes is 0
+startInsertSportSync start auto sync app is 1
+checkFirstSyncByType no such data in db type is 1 deviceCode is 0
+startInsertSportSync first 500 steps sync do all sync
+startSync hiSyncOption HiSyncOption{syncAction <*> syncMethod 2 syncScope 0 syncDataType 20000 syncModel 2 pushAction 0} app 1 who 1
+<*> <*> is <*>
+<*> the <*> switch is open start push <*> data!
+initDataPrivacy the dataPrivacy is true
+initUserPrivacy the userPrivacy is true
+ifCanSync not! no cloud version
+sendSyncFailedBroadcast
+saveRealTimeHealthDatasStat() size 1 totalTime <*>
+InsertEvent success begin <*> end <*>
+setWriteDBLastDataMinute <*>
+flush2DB result success
+timeStamp back extendReportTimeStamp <*>
+startTimer start autoSync
+getTodaySportData mStepsRecordManager <*>
+theDayChanged <*>
+initEnviroument
+getStepCounterStatus
+getStepCounterStatus true
+reStartStepCounter
+registersensorsuccess true
+clear()
+getTodayBasicStandardSteps <*>
+tryToRecordAsBasicStepData bWrite true
+getDiffTotalSteps <*>
+setBasicStandardSteps basicStandardStep <*> restartSteps <*>
+setDiffTotalSteps 0
+tryToReloadTodayBasicSteps1514044800223|3786|0|0
+reload <*> restar <*>
+next day <*>
+setGoalNotifiShownRecord <*> <*>
+closeNotification...
+deleteHealthNotification()
+checkCurrentDay a new day comes reset basicSyncCondition currentDay is <*> oldDay is <*>
+uploadStaticsToDB success
+getTodayNoSyncTotalValue datas is null or empty
+isScreenOn false
+FAILED_SCREEN_OFF block report
+setDeviceShutDownValue shutDownTime 0 isShutDown false
+getFirstStartDaemonFromUI true
+getDeviceShutDownBoolean shutDown false
+getDeviceShutDownTime shutDownTime 0
+getVersion
+getVersion Athene3
+getServiceRestartRecord <*>
+setServiceRestartRecord <*>
+getStepsTarget
+getStepsTarget 10000
+FAILED_ERROR_DATA
+getLastSyncDBTime -1
+init <*>
+getUserInfoFromPerference success
+userInfo changed detail
+setUserInfoToPerference success
+getDiffTotalCalories
+getDiffTotalCalories 1513941509360##38.0
+getDiffTotalAltitude 1513941509363##0.0
+getIntercepterDistance from Prefence success and intercepterDistanceStr 1513941509364##0.0
+registerDynamicBroadcastReceiver
+readXmlIfSupportEX
+policy /system/emui/base /system/emui/china /vendor/etc /odm/etc /product/etc /hw_odm /hw_oem /data/cust /version/region_comm/china /cust_spec
+getCfgFile enter...
+support extand step counter! return true
+readXmlIfSupportEX result true
+supportStandStepCounter true
+supportPrivateStandStepcounter true supportStandStepCounter true
+setDeviceClassType 1
+setDeviceClassType success
+initStepCounter deviceType 1
+getStepsNotificationShowStatus
+getMidWareStepCountService pkgName com.huawei.systemserver service com.huawei.systemserver.ihealth.connectivity.HwStepCounterService
+getStepsNotificationShowStatus false
+getGoalNotificationShowStatus
+getGoalNotificationShowStatus true
+setGoalNotificationShowStatus true
+setGoalNotificationShowStatus success
+getGoalNotifiShownRecord <*>
+getMidWareStepCountService isSystemApp true
+initExtendStepCounter 101
+getWriteDBLastDataMinute
+getWriteDBLastDataMinute <*>
+initCacheFromFile enter...
+bind ret true
+context <*>
+initDataManager enter...
+SystemClock.elapsedRealtime() <*>
+updateBasicRestartStepsInfo restartStep <*>
+updateBasicRestartStepsInfo restart but same day
+tryToReloadTodayBasicSteps1514100778366|0|5017|0
+the first init <*>
+target init target10000
+getARDebugConfig
+setActionRestartSensorAlarm <*>
+onStartCommand Intent { cmp com.huawei.health/.manager.DaemonService }
+MyServiceConn connect 1.0.0.0
+startStepCounter <*>
+setStepCounterStatus true
+setStepCounterStatus success
+start compare with midware counter
+compareMidWareCacheAndLocalCache enter...
+startStepCounterInter mStandStepCounter <*>
+getMidWareCache <*> <*>
+MyGetDetailDataCallback onResult bundle null
+compareMidWareCacheAndLocalCache onFailed
+startStepCounterInter stand
+openStepCounter <*>
+registerCallback <*>
+registerLogCallback <*>
+registerLogCallback <*> cb <*>
+startStepCounterInter extend
+onCreate()
+initSyncModel current SyncModel is 2
+onBind intent Intent { act com.huawei.hihealthservice.HiHealthService pkg com.huawei.health }
+moveOldData()
+initBinder() app 1 packageName com.huawei.health
+startNotification...
+createHealthNotification()
+upDateHealthNotification()|214|7.14|10000
+rebuild notification
+tryToReloadTodayBasicSteps1514131200330|11903|0|0
+checkSportDataNum setp and calories is too less
+upDateHealthNotification()|276|7.22|10109
+checkLocalDataValue false
+tryToReloadTodayBasicSteps1514217600236|26302|0|0
+tryToReloadTodayBasicSteps1514246404138|0|29|0
+tryToReloadTodayBasicSteps1514304000166|5485|0|0
+tryToReloadTodayBasicSteps1514390402206|12910|0|0
+tryToReloadTodayBasicSteps1514476801203|18999|0|0
+initDiffCaloriesfromFile mCaloriesDiff 38.0
+initDiffAltitude from File mAltitudeDiff 0.0
+initTrackDistancefromFile from File mTrackDistance 0.0
+tryToReloadTodayBasicSteps1514558283122|0|4698|0
+tryToReloadTodayBasicSteps1514563200144|0|0|0
+tryToReloadTodayBasicSteps1514649686281|9011|0|0
+tryToReloadTodayBasicSteps1514685993348|0|3363|0
+upDateHealthNotification()|256|7.18|10057
+tryToReloadTodayBasicSteps1514736000229|8433|0|0
+tryToReloadTodayBasicSteps1514822436069|14658|0|0
+insert conflict event timeBegin 25247769 timeEnd 25247776
+upDateHealthNotification()|318|7.14|10001
+setFirstStartDaemonFromUI success true
+onStartCommand Intent { pkg com.huawei.health cmp com.huawei.health/.manager.DaemonService (has extras) }
+subscribeHiHealthData() checkAppType 0 appID 1
+switchTrackMonitor false
+fetchPhoneDataClient
+getUserPreference key <*>
+<*> checkAppType 0 appID 1 id 1 time <*>
+aggregateHiHealthData aggregateOption is HiAggregateOption{startTime <*> endTime <*> type <*> <*> alignType 0 aggregateType 1 groupUnitType 0}
+readHiHealthData() readOption HiDataReadOption{startTime <*> endTime <*> type [44105 44004] count 7 sortOrder 1 readType 0 alignType 0}
+aggregateHiHealthDataEx() checkAppType 0 appID 1
+aggregateHiHealthData aggregateOption is HiAggregateOption{startTime 1512298379505 endTime 1514890379505 type [2008 2009 2010 2011 2012 2013 2014 2015] alignType 0 aggregateType 1 groupUnitType 0}
+aggregateHiHealthData() time <*> totalTime <*>
+readHiHealthData() end time <*> totalTime <*>
+readHiHealthData() readOption HiDataReadOption{startTime <*> endTime 1514908799999 type <*> count <*> sortOrder <*> readType 0 alignType 0}
+aggregateHiHealthData aggregateOption is HiAggregateOption{startTime 0 endTime <*> type [42003 42005 42004] alignType 0 aggregateType 1 groupUnitType 7}
+fetchDataSourceByType type 2 timeInterval HiTimeInterval{startTime 2018-01-02 18 52 59 endTime 2018-01-02 18 <*> <*> timeZone 0}
+getHealthClientListByTime() dataClientIDs is null timeInterval HiTimeInterval{startTime 2018-01-02 18 52 59 endTime 2018-01-02 18 <*> <*> timeZone 0}
+aggregateHiHealthData aggregateOption is HiAggregateOption{startTime -28800000 endTime 1514908799999 type [2004 2001] alignType 0 aggregateType 3 groupUnitType 3}
+aggregateHiHealthData aggregateOption is HiAggregateOption{startTime -28800000 endTime 1514908799999 type [44102 44103 44101 44104 44107 44203 44208 44106 44105 44001 44002 44003 44005] alignType 0 aggregateType 1 groupUnitType 3}
+tryToReloadTodayBasicSteps1514893168960|0|14696|0
+tryToReloadTodayBasicSteps1514908800101|9010|0|0

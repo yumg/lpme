@@ -1,0 +1,54 @@
+<*> TrustedInstaller <*>
+Loaded Servicing Stack v6.1.7601.23505 with Core C \Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_6.1.7601.23505_none_681aa442f6fed7f0\cbscore.dll
+<*> <*> <*> <*> WcpInitialize (wcp.dll version 0.0.0.6) called (stack <*>
+<*> the TrustedInstaller main loop.
+TrustedInstaller service starts successfully.
+SQM Initializing online with Windows opt-in False
+SQM Cleaning up report files older than 10 days.
+SQM Requesting upload of all unsent reports.
+SQM Failed to start upload with file pattern C \Windows\servicing\sqm\*_std.sqm flags [HRESULT - E_FAIL]
+SQM Failed to start standard sample upload. [HRESULT - E_FAIL]
+SQM Queued 0 file(s) for upload with pattern C \Windows\servicing\sqm\*_all.sqm flags 0x6
+SQM Warning Failed to upload all unsent reports. [HRESULT - E_FAIL]
+No startup processing required TrustedInstaller service was not set as autostart or else a reboot is still pending.
+NonStart Checking to ensure startup processing was not required.
+00000004 IAdvancedInstallerAwareStore_ResolvePendingTransactions (call 1) (flags 00000004 progress NULL phase 0 pdwDisposition <*>
+<*> Creating NT transaction (seq <*> objectname [6]"(null)"
+<*> Created NT transaction (seq <*> result handle <*>
+<*> <*> <*> <*> CSI perf trace
+NonStart Success startup processing not required as expected.
+<*> processing thread terminated normally
+<*> CSI Store <*> (initialized
+Session <*> initialized by client <*>
+Warning Unrecognized packageExtended attribute.
+Expecting attribute name [HRESULT - CBS_E_MANIFEST_INVALID_ITEM]
+Failed to <*> <*> <*> [HRESULT - <*>
+Read out cached package applicability for package <*> ApplicableState <*> CurrentState <*>
+Failed to create backup log cab. [HRESULT - ERROR_INVALID_FUNCTION]
+Reboot mark refs incremented to 1
+Scavenge Starts
+<*> <*> <*> <*> CSI Transaction @initialized for deployment engine {d16d444c-56d8-11d5-882d-0080c847b195} with flags 00000002 and client id <*> <*>
+Scavenge Begin CSI Store
+0000000a Performing 1 operations; 1 are not lock/unlock and follow
+0000000b Store coherency cookie matches last scavenge cookie skipping scavenge.
+0000000c ICSITransaction Commit calling IStorePendingTransaction Apply - coldpatching FALSE applyflags 7
+Scavenge Completed disposition 0X1
+<*> <*> <*> <*> CSI Transaction @destroyed
+Reboot mark refs 0
+Loading offline registry hive <*> into registry key <*> from path <*>
+Offline image is read-only
+Disabling manifest caching because the image is not writeable.
+<*> 16 <*> <*> PopulateComponentFamiliesKey - <*>
+Unloading offline registry hive <*>
+Session <*> finalized. Reboot required no [HRESULT - S_OK]
+Appl detect Parent Package <*> Parent Microsoft-Windows-Foundation-Package~31bf3856ad364e35~amd64~~6.1.7601.17514 Disposition <*> VersionComp EQ ServiceComp <*> BuildComp EQ DistributionComp GE RevisionComp GE Exist present
+Appl detectParent package <*> related parent found Microsoft-Windows-Foundation-Package~31bf3856ad364e35~amd64~~6.1.7600.16385 which is not real parent
+Appl detectParent package <*> parent found Microsoft-Windows-Foundation-Package~31bf3856ad364e35~amd64~~6.1.7601.17514 state Installed
+Appl detect Parent Package <*> disposition state from detectParent Installed
+Appl Evaluating package applicability for package <*> applicable state Installed
+Appl Selfupdate Component amd64_microsoft-windows-a..rience-program-data_31bf3856ad364e35_0.0.0.0_none_f160e36583903781 (6.1.7601.23545) elevation 4 lower version revision holder 6.1.7601.23488
+Applicability(ComponentAnalyzerEvaluateSelfUpdate) Component amd64_microsoft-windows-a..rience-program-data_31bf3856ad364e35_6.1.7601.23545_none_cff8557eb2dd5765 elevate 4 applicable(true/false) 1
+Appl SelfUpdate detect component amd64_microsoft-windows-a..rience-program-data_31bf3856ad364e35_6.1.7601.23545_none_cff8557eb2dd5765 elevation 4 applicable 1
+Appl Evaluating applicability block(non detectUpdate part) disposition is Staged applicability Applicable result applicability state Installed
+Appl Package Package_1_for_KB2952664~31bf3856ad364e35~amd64~~6.1.20.1 Update 2952664-1_neutral_LDR Applicable Applicable Disposition Installed
+External EvaluateApplicability package <*> package applicable State Installed highest update applicable state Installed resulting applicable state Installed

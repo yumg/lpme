@@ -1,0 +1,41 @@
+<*> HTTPstatus len time .
+[instance <*> VM <*> (Lifecycle Event)
+[instance <*> During sync_power_state the instance has a pending task <*> Skip.
+image dd-c-fbb-c-fbeb at (checking
+image dd-c-fbb-c-fbeb at (in use on this node local on other nodes sharing this instance storage
+Active base files /var/lib/nova/instances/_base/acfcdabcbbace
+Creating event network-vif-plugged <*> for instance <*>
+spawned [instance <*> Instance <*> successfully.
+spawn [instance <*> Took . seconds to <*> the instance on the hypervisor.
+[instance <*> Took . seconds to build instance.
+Auditing locally available compute resources for node cp-.slowvm.tcloud-pg.utah.cloudlab.us
+Total usable vcpus total allocated vcpus
+Final resource view name cp-.slowvm.tcloud-pg.utah.cloudlab.us phys_ram MB used_ram MB phys_disk GB used_disk GB total_vcpus used_vcpus pci_stats []
+Compute_service record updated for cp-.slowvm.tcloud-pg.utah.cloudlab.us cp-.slowvm.tcloud-pg.utah.cloudlab.us
+[instance <*> Terminating instance
+destroyed [instance <*> Instance <*> successfully.
+[instance <*> Deleting instance files <*>
+[instance <*> Deletion of complete
+destroy [instance <*> Took . seconds to <*> the instance on the hypervisor.
+[instance <*> Took . seconds to deallocate network for instance.
+Unknown base file /var/lib/nova/instances/_base/acfcdabcbbace
+Removable base files /var/lib/nova/instances/_base/acfcdabcbbace
+Removing base or swap file /var/lib/nova/instances/_base/acfcdabcbbace
+HTTP exception thrown No instances found for any event
+[instance <*> Attempting claim memory MB disk GB vcpus CPU
+Total memory[instance <*> Total <*> <*> used . <*>
+[instance <*> memory limit . MB free . MB
+Total disk[instance <*> Total <*> <*> used . <*>
+disk limit [instance <*> <*> limit not specified defaulting to unlimited
+Total vcpu[instance <*> Total <*> <*> used . <*>
+vcpu limit [instance <*> <*> limit not specified defaulting to unlimited
+[instance <*> Claim successful
+[instance <*> Creating image
+Successfully synced instances from host 'cp-.slowvm.tcloud-pg.utah.cloudlab.us'.
+Running instance usage audit for host cp-.slowvm.tcloud-pg.utah.cloudlab.us from -- to -- . instances.
+Base or swap file too young to remove /var/lib/nova/instances/_base/acfcdabcbbace
+The instance sync for host 'cp-.slowvm.tcloud-pg.utah.cloudlab.us' did not match. Re-created its InstanceList.
+While synchronizing instance power states found instances in the database and instances on the hypervisor.
+couldn't obtain the vcpu count from domain id <*> exception Requested operation is not valid cpu affinity is not supported
+Error during ComputeManager._run_image_cache_manager_pass
+image dd-c-fbb-c-fbeb a
